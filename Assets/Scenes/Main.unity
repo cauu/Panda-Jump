@@ -295,7 +295,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   additionalRaycastsPerSide: 1
-  groundSpeed: 8
+  groundSpeed: 4
   timeToGroundSpeed: 0.1
   groundStopDistance: 0.333
   airSpeed: 5
