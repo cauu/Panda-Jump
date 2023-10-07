@@ -16,7 +16,7 @@ public class PlatformerMotor2D : MonoBehaviour
     /// How far out the motor will check for the environment mask. This value can be tweaked if jump checks are not firing when
     /// wanted.
     /// </summary>
-    public float envCheckDistance = 0.04f;
+     public float envCheckDistance = 0.04f;
 
     /// <summary>
     /// The distance the motor will separate itself from environment. This is useful to prevent the motor from catching on edges.
