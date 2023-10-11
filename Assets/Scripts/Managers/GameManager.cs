@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public RectTransform startButtonRect;
 
     [HideInInspector] public int playerHp;
+    [HideInInspector] public int score;
 
     void Awake () {
         instance = this;
@@ -68,5 +69,9 @@ public class GameManager : MonoBehaviour
 
     public void PlayerHeal () {
         playerHp++;
+    }
+
+    public void PlayerScore () {
+        score++;
     }
 }
